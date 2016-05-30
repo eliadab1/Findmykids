@@ -1,7 +1,7 @@
 var crypto = require('crypto');
 var rand = require('csprng');
 var mongoose = require('mongoose');
-var user = require('config/models');
+var user = require('models');
 
 exports.register = function(email,password,fullname,username,age,callback) {
 

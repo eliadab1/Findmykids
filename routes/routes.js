@@ -1,7 +1,7 @@
-var chgpass = require('config/chgpass');
-var register = require('config/register');
-var login = require('config/login');
-var kidlogin = require ('config/kidlogin');
+var chgpass = require('../config/chgpass');
+var register = require('../config/register');
+var login = require('../config/login');
+var kidlogin = require ('../config/kidlogin');
 
 
 module.exports = function(app) {
