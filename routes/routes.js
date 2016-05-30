@@ -12,7 +12,7 @@ module.exports = function(app) {
           res.end("parents");
      });
 
-     app.get('/favicon.icon', function(req, res) {
+     app.get('/favicon.ico', function(req, res) {
 
           res.status(404).end("");
      });
