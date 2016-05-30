@@ -14,7 +14,7 @@ module.exports = function(app) {
 
      app.get('/favicon.ico', function(req, res) {
 
-          res.status(404).end("");
+          res.send(404);
      });
 
      app.post('/login',function(req,res){
