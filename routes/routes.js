@@ -12,6 +12,11 @@ module.exports = function(app) {
           res.end("parents");
      });
 
+     app.get('/favicon.icon', function(req, res) {
+
+          res.status(404).end("");
+     });
+
      app.post('/login',function(req,res){
           var email = req.body.email;
           var password = req.body.password;
